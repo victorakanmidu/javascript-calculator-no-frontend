@@ -1,7 +1,7 @@
-let calcOperation = prompt("What operation do you want to perform? \n + \n - \n / \n *");
 let firstValue = prompt("Enter your first value:");
+let calcOperation = prompt("What operation do you want to perform? \n + \n - \n / \n *");
 let secondValue = prompt("Enter second value:");
- 
+
 if(calcOperation == "+"){
     alert("Result = " + firstValue + secondValue);
 }else if(calcOperation == "-"){
@@ -13,5 +13,6 @@ if(calcOperation == "+"){
 }else{
     alert("Result = " + firstValue % secondValue);
 }
+
 
 document.write("Refresh to use the calculator again!");
